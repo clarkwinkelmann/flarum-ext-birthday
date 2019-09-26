@@ -1,0 +1,17 @@
+clarkwinkelmann-birthday:
+    forum:
+        settings:
+            link: Configure Birthday
+            title: Edit Birthday
+            label: Birthday
+            choose: Choose...
+            unspecified: Unspecified (it's optional)
+            submit: Save birthday
+
+    admin:
+        permissions:
+            see: See birthdays
+            edit-anyone: Edit anyone's birthday
+
+    api:
+        invalid-date: The date is invalid

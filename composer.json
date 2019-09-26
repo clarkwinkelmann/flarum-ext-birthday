@@ -1,0 +1,37 @@
+{
+    "name": "clarkwinkelmann/flarum-ext-birthday",
+    "description": "Birthday setting for users",
+    "keywords": [
+        "flarum"
+    ],
+    "type": "flarum-extension",
+    "license": "MIT",
+    "require": {
+        "flarum/core": ">=0.1.0-beta.10 <0.1.0-beta.12"
+    },
+    "authors": [
+        {
+            "name": "Clark Winkelmann",
+            "email": "clark.winkelmann@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "ClarkWinkelmann\\Birthday\\": "src/"
+        }
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "Birthday",
+            "icon": {
+                "name": "fas fa-birthday-cake",
+                "backgroundColor": "#ea32a7",
+                "color": "#ffffff"
+            }
+        },
+        "flagrow": {
+            "discuss": ""
+        }
+    }
+}

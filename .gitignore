@@ -1,0 +1,8 @@
+node_modules
+vendor
+composer.lock
+
+# Only because this is a demo source code:
+# Remove if you fork!
+js/dist
+js/yarn.lock
