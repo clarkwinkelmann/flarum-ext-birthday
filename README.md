@@ -10,3 +10,5 @@ Fell free to fork into your own extension !
 
 Note: dist files were omitted from GitHub. Run `yarn install` and `yarn build` in the `js` folder to create them before installing this extension locally.
 If you fork, remove the last two lines in `.gitignore` so that the dist and lock files get commited.
+
+> This extension was written live on YouTube. Watch the video on the [Clark writes code channel](https://www.youtube.com/watch?v=vEv-qcnpgo8). Support me on [Patreon](https://www.patreon.com/clark_writes_code)!
